@@ -1,0 +1,271 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #fff;
+    font-family:  'poppins' , sans-serif ;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background-color: rgb(0, 0, 0);
+    /*background-image: url(../images/Black-background-daniel-putzer.jpg);*/
+    background-size: cover;
+    background-position: center;
+    overflow: hidden;
+}
+
+.navbar {
+    width: 85%;
+    margin: auto;
+    padding: 9px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    width: 80px;
+    margin-left: -50px;
+    cursor: pointer;
+}
+
+.navbar ul li {
+    list-style: none;
+    display: inline;
+    margin: 0 20px;
+    padding: 10px;
+    position: relative;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+.navbar ul li::after {
+    content: '';
+    height: 3px;
+    width: 0;
+    background: #009688;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.5s;
+}
+
+.navbar ul li:hover::after {
+    width: 100%;
+
+}
+
+
+.info {
+    /*background-color: #009688;*/
+    height: 73vh;
+    width: 100vw;
+    margin-top: 48px;
+    display: flex;
+}
+
+.infopara {
+    /*background-color: blue;*/
+    height: 73vh;
+    width: 50vw;
+}
+.info-content{      
+    padding: 140px;
+
+}
+
+.info-content h3 {
+
+}
+.info-content h1 {
+    font-weight: bolder;
+    font-size: 3.5em;
+}
+.info-content h1 span {
+    color: aqua;
+}
+
+.btn{
+    cursor: pointer;
+    font-weight: bold;
+    margin-top: 25px;
+    width: 129px;
+    height: 29px;
+    background: #000;
+    border-color: aqua;
+    color: aqua;
+    border-radius: 20px;
+}
+.btn a{
+    text-decoration: none;
+    color: aqua;
+}
+a .btn:hover{
+    font-weight: bold;
+    border-color: #000;
+    background: aqua;
+    color: rgb(0, 0, 0);
+}
+
+
+
+.infoimg {
+
+    margin: 14px 0 10px 57px;
+ 
+}
+.human {
+    height: 67vh;
+}
+/*------- ---------------------- ABOUT SECTION ----------*/
+#about{
+    display: flex;
+    background: rgb(0, 0, 0);
+    width: 100%;
+    height: 100vh;
+}
+.about-data{
+    width: 69vw;
+    margin: 40px 68px;
+}
+.abtimg{
+    
+    height: 85vh;
+    margin-top: 18px;
+    margin-left: 25px;
+    border-radius: 15px;
+}
+
+.hding1{    
+    font-size: 2em;
+    font-weight: 600px;
+}
+.about-data p{
+    padding-top: 19px;
+    font-size: 17px;
+}
+.skill{
+    margin-bottom: 7px;
+    margin-top: 7px;
+    background-color: rgb(0, 0, 0);
+    width: auto;
+    height: auto;
+}
+.skill h3{
+    font-size: 2em;
+    margin-top: 46px;
+}
+.skill p{
+    margin-bottom: 7px;
+    margin-top: 7px;
+}
+
+.html{    
+    margin-bottom: 22px;
+    margin-top: 14px;
+    background: aqua;
+    width: 150px;
+    height: 10px;
+    border-radius: 10px;
+}
+.dhtml{
+    
+    background: white;
+    width: 13px;
+    height: 10px;
+    float: right;
+    border-radius: 10px;
+}
+
+
+.css{
+    margin-bottom: 7px;
+    margin-top: 14px;
+    background: aqua;
+    width: 150px;
+    height: 10px;
+    border-radius: 10px;
+}
+.dcss{
+    background: rgb(255, 255, 255);
+    width: 36px;
+    height: 10px;
+    float: right;
+    border-radius: 10px;
+
+}
+.abtimg{
+    height: 85vh;
+}
+
+/*-------------------- FOOTER ----*/
+
+#footer{
+    background-color: #000;
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.clm1{
+    
+    height: 200px;
+    width: 30%;
+}
+
+.clm1 span{
+    color: aqua;
+}
+
+.clm2{
+    
+    height: 200px;
+    width: 30%;
+}
+
+
+.clm2 span{
+    color: aqua;
+}
+/* ----------- icon ------ */
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .social-media-icon {
+    display: inline-block;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    border: 1px solid black;
+    text-align: center;
+    margin: 0 10px;
+    transition: all 0.3s;
+  }
+  
+  .social-media-icon i {
+    font-size: 30px;
+    line-height: 50px;
+  }
+  
+  .social-media-icon:hover {
+    background-color: aqua;
+    border-color: aqua;
+    cursor: pointer;
+}
+.copy{
+    
+    width: 100%;
+    background-color: #009688;
+    text-align-last: center;
+}
+.copy:hover{
+    color: aqua;
+}
